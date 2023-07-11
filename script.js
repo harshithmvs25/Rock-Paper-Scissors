@@ -1,13 +1,14 @@
 function getComputerChoice(){
     let comChoice = Math.floor(Math.random()*3)
+    const choiceArr = ['rock','paper','scissors']
     if(comChoice == 0)
-        return ("rock");
+        return choiceArr[comChoice];
 
     if(comChoice == 1)
-        return ("paper");
+        return choiceArr[comChoice];
 
     if(comChoice == 2)
-        return ("scissors");
+        return choiceArr[comChoice];
 }
 
 // Taking Computer Input

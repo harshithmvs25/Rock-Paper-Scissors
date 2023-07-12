@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: beige;
+}
+
+.header{
+    height: 100px;
+    background-color: limegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo{
+    height: 75px;
+    width: 500px;
+}
+
+#game h1{
+    text-align: center;
+}
+
+.hand{
+    height: 250px;
+
+}
+
+.hand-images h3{
+    text-align: center;
+}
+
+.hand-images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.choiceSelection{
+    margin-top: 30px;
+    margin-left: 500px;
+    display: inline-block;
+}
+
+.handSelection{
+    margin-left: 50px;
+}

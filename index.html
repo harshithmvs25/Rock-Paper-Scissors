@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
 <body>
-    
+    <div class="header">
+        <img class="logo" src="https://images.squarespace-cdn.com/content/v1/5c5821a270468010638b474a/1549968567430-J4XLD73LMQXM38V3B0ZC/rock+paper+scissors+FINALS_Full+logo+-+landscape.png" alt="">
+    </div>
+
+    <div id="game">
+        <h1>Let's play the game</h1>
+
+        <!--Hand Images-->
+        <div class="hand-images">
+            <div class="myHand">
+                <h3>Your Choice</h3>
+                <img src="https://static.vecteezy.com/system/resources/previews/013/096/571/original/finger-pointing-up-outline-icon-free-vector.jpg" alt="" id="myChoice" class="hand">
+            </div>
+        
+            <div class="compHand">
+                <h3>Computer Choice</h3>
+                <img src="https://static.vecteezy.com/system/resources/previews/013/096/571/original/finger-pointing-up-outline-icon-free-vector.jpg" alt=""  id="compChoice" class="hand">
+            </div>
+        </div>
+
+        <h3 class="choiceSelection">Select your choice : </h3>
+        <button class="handSelection" id="rock">Rock</button>
+        <button class="handSelection" id="paper">Paper</button>
+        <button class="handSelection" id="scissors">Scissors</button>
+        
+    </div>    
 </body>
 </html>
